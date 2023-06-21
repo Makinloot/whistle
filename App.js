@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View, StatusBar, SafeAreaView } from 'react-native';
+import Home from './src/screens/home/Home';
 
 export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text>hi</Text>
+      <Home />
     </SafeAreaView>
   );
 }
